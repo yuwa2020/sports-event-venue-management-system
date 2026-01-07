@@ -1,0 +1,138 @@
+{
+  "app": {
+    "title": "Vite + React + TS",
+    "counter": {
+      "button": "count is {{count}}",
+      "asyncButton": "Add Async",
+      "description": "Edit <code>src/App.tsx</code> and save to test HMR"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error occurred",
+    "success": "Success!"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "Please reload the page or try again later",
+    "retry": "Try Again"
+  },
+  "pages": {
+    "contact": {
+    "title": "Contact Us",
+    "description": "Have questions, suggestions, or want to partner with TeamUp? We’d love to hear from you."
+    },
+    "home": {
+      "title": "Welcome to Our App",
+      "loginButton": "Go to Login"
+    },
+    "login": {
+      "title": "Login",
+      "loginButton": "Sign In"
+    },
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "profile": {
+      "title": "Profile"
+    },
+    "venue": {
+      "title": "Venues"
+    },
+    "about": {
+      "title": "TeamUp"
+    },
+    "notFound": {
+      "title": "404 - Page Not Found",
+      "message": "The page you're looking for doesn't exist."
+    },
+    "payment": {
+      "successTitle" : "Payment Successful",
+      "successMessage": "Thank you for your booking. A confirmation email has been sent."
+    }
+  },
+  "components" :{
+    "navbar": {
+      "login": {
+          "title": "Login/Signup"
+        },
+      "user": {
+        "home": {
+          "title": "Home"
+        },
+        "venue": {
+          "title": "Venues"
+        },
+        "about": {
+          "title": "About"
+        },
+        "contact": {
+          "title": "Contact"
+        },
+        "explore": {
+          "title": "Explore"
+        }
+      },
+      "venueOwner": {
+        "venue-owner-dashboard": {
+          "title": "Dashboard"
+        },
+        "my-venues": {
+          "title": "My Venues"
+        },
+        "bookings": {
+          "title": "Bookings"
+        },
+        "reviews": {
+          "title": "Reviews"
+        },
+        "settings": {
+          "title": "Settings"
+        },
+        "logout": {
+          "title": "Logout"
+        },
+        "create-event": {
+          "title": "Create Event"
+        }
+      }
+    },
+    "venueBanner":{
+      "heading": "Venues specially curated for you!",
+      "subText" : "Get event suggestions tailored to your interests! Don&apos;t let your favorite Venues slip away.",
+      "buttonText" : "Get Started →"
+
+    },
+    "venueCarousel":{
+      "buttonText" :"View Details"
+
+    },
+    "footer":{
+      "companyInfo": "Company Info",
+      "about": "About",
+      "help": "Help",
+      "contact": "Contact Us",
+      "copyright": "© 2025 TeamUp. All rights reserved."
+      
+
+    },
+    "popularVenues":{
+      "heading": "Popular Venues in Your Location",
+      "buttonText" :" See More",
+      "defualtFilter" : " No venues found for this filter."
+
+    },
+    "popularEvents": {
+      "heading": "Popular Events in Your Location",
+      "defaultFilter": "No events available."
+    },
+    "filterTabs": {
+      "all": "All",
+      "today": "Today",
+      "tomorrow": "Tomorrow",
+      "weekend": "Weekend",
+      "free": "Free"
+    }
+    
+  }
+} 

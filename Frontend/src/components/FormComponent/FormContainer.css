@@ -1,0 +1,100 @@
+.form-container{
+    background-color: #2b293d; 
+    height: 100vh;
+    display: flex;
+}
+
+.left-container{
+    flex: 45%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.teamup-logo{
+    padding:2;
+    display: inline-block;
+    margin-top: 25px;
+    color: yellow;
+    font-weight: bold;
+}
+
+.description-text{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 30px;
+    color: white
+}
+
+.right-container{
+    flex: 55%;
+    background-color: white;
+    height: 100vh;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-container{
+    width: 100%;
+}
+
+.form-header{
+    height: 10%;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social-buttons{
+    height: 10%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.social-button{
+    flex: 1; 
+    margin-right: 1;
+    border-color: black;
+    color: black;
+}
+
+.social-button:hover{
+    border-color: black;
+    background-color: #f5f5f5;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.divider-line {
+    border-bottom: 1px solid black;
+    width: 43%;
+}
+
+.or-text {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.input-fields {
+    height: 60%;
+    padding-left: 20px;
+}
+
+.footer-text {
+    height: 10%;
+    padding-left: 20px;
+}

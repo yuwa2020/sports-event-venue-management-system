@@ -1,0 +1,90 @@
+/* VenueOwnerDashboard.css */
+
+.container {
+    margin: 0 60px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.stats-container {
+    display: flex;
+    gap: 9px;
+    justify-content: space-between;
+}
+
+.card-heading {
+    color: gray;
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+}
+
+.card-number {
+    text-align: center;
+    margin: 0;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.venues-container {
+    display: flex;
+    gap: 16px;
+}
+
+.venue-card {
+    width: 300px;
+}
+
+.table-container {
+    width: 80%;
+}
+
+.table {
+    min-width: 650px;
+}
+
+.review-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.review-box {
+    flex: 1;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.review-paper {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.star-icon {
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.right-arrow {
+    color: gray;
+}
+
+.promo-container {
+    flex: 1;
+}
+
+.promo-button {
+    width: 80%;
+}
